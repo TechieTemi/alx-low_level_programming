@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 /**
-* main - Entry point of a program
-*
-* Description: Prints all possible differect combinations of two digits.
-*		Numbers must be separated by ,.
-*		Followed by space
-*		The two digits must be different
-*		Print only the smallest combination of two digits.
-*
-* Return 0;
-*/
+ * main - Entry point of the program
+ *
+ * Description: Prints all possible different combinations of two digits,
+ *              separated by ", " and in ascending order.
+ *              Only the putchar function is used.
+ *
+ * Return: Always 0 (success)
+ */
 
 int main(void)
 {
