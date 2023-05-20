@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point of the program
+ * main - Entry point of the program
  *
  * Descriptin: Prints all possible combinations of single-digit numbers
  *
