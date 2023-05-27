@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*print_most_number - A function that prints the numbers, from 0 to 9, followed by a newline.
-*Description: A function that prints numbers from 0 to 9 without printing 2 and 4.
+*print_most_number - A function that prints the numbers, from 0 to 9.
+*Description - function that print the number from 0 to 9 without 2 and 4
 */
 
 void print_most_numbers(void)
