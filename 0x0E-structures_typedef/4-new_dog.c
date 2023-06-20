@@ -1,19 +1,23 @@
-#include <stdlib.h>
 #include "dog.h"
 
 /**
- * _strlen - a function that gets a length of string
+ * init_dog - initialize dog struct
  *
- * @str: the string to get the length
+ * @d: input pointer to struct dog
+ * @name: input for dog name
+ * @age: input for dog age
+ * @owner: input for dog owner
  *
- * Return: length of @str
+ * Return: nothing
  */
 
-int _strlen(const char *str)
+void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-int length = 0;
-
-while (*str++)
-length++;
-return (length);
+if (d)
+{
+      /*d->name = name;*/
+(*d).name = name;
+(*d).age = age;
+(*d).owner = owner;
+}
 }
