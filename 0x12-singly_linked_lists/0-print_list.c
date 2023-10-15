@@ -12,6 +12,7 @@ size_t print_list(const list_t *h)
 	size_t count = 0;
 
 	/* what if the list is not empty */
+
 	temp = h;
 	while(temp != NULL)
 	{
@@ -26,7 +27,7 @@ size_t print_list(const list_t *h)
 		temp = temp->next;
 		count++;
 	}
-	return (count);
+	return count;
 }
 
 
