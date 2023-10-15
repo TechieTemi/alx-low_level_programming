@@ -3,7 +3,7 @@
 /**
  * print_list - A function that print all the element in a list
  * @h: Of type list_h
- * Return: size_t
+ * Return: number of node printed
  */
 
 size_t print_list(const list_t *h)
